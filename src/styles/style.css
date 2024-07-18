@@ -179,6 +179,14 @@ a {
         grid-template-columns: 1fr;
         grid-template-rows: 200px 1fr;
     }
+
+    .content-inner.inverted {
+        grid-template-columns: 1fr;
+    }
+
+    .content-inner.inverted>img {
+        grid-row: 1 / 2
+    }
     .content-inner img {
         margin-top: 0;
         justify-self: center;
