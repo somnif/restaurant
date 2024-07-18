@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack serve --open"
+    "serve": "webpack serve --open",
+    "publish": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
